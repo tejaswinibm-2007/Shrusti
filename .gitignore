@@ -1,0 +1,14 @@
+@"
+target/
+*.class
+.env
+.env.*
+!.env.example
+application-local.properties
+uploads/
+data/
+*.mv.db
+*.trace.db
+*.log
+.idea/
+"@ | Set-Content .gitignore
